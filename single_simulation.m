@@ -7,11 +7,11 @@ SecondWG = false;
 PlotNProfile = true;
 PlotKappa = false;
 consistent = true;
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 % Parameters of Simulation
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 um=1e-6;
-% Free space wavelength
 lambda = 1.55*um;
 k0 = 2*pi/lambda;
 
@@ -58,9 +58,9 @@ z = linspace(0, deltaz*Nzpts, Nzpts+1);
 % Index profile for WG 
 n_Input_WG = nCladding*ones(Nzpts + 1, N);
 counter = 0;
-L = 500*um;
+L = 700*um;
 A = 63.8*um;
-width_perturbation = 0.325*um;
+width_perturbation = 0.1*um;
 offset = 500; % Offset for where perturbation starts
 last_perturbation_index = 1;
 for j = 1 : Nzpts + 1
@@ -269,7 +269,7 @@ plot(z(1:end-1), te0_power);
 hold on
 plot(z(1:end-1), te1_power);
 hold on
-xline(z(offset),'-',{'     Grating Start'}, 'lineWidth', 3, 'Color', 'b', 'fontSize', 15);
+xline(z(offset),'-',{'  Grating Start'}, 'lineWidth', 3, 'Color', 'b', 'fontSize', 15);
 hold on
 xline(z(last_perturbation_index),'-',{'     Grating End'}, 'lineWidth', 3, 'Color', 'b', 'fontSize', 15);
 xlabel("Propagation Direction, z (m)", 'fontSize', 15);
