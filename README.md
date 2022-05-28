@@ -6,4 +6,4 @@
 - single_simulation.m: This is the main simulation executable. It Computes the complex E-field profiles along the transverse and propagation directions in the periodic perturbation-based TE0/TE1 mode converter using the Beam Propagation Method based on the Crank-Nicolson Scheme. The overlap integral of the propagating field with the TE0/TE1 are computed at every z-step to monitor the modal powers. The simulation parameters like the grating periodicity, grating tooth width, and waveguide length can be tuned. 
 
 ## Results
-![alt text width="200"](./results/1.jpg)
+<img src="./results/1.jpg" width="200">
