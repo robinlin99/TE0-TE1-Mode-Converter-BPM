@@ -8,5 +8,5 @@
 ## Results
 <img src="./results/1.jpg" width="500"> <img src="./results/shorter.jpg" width="500">
 
-When the simulation ends, the overall |E|^2 profile is plotted and the modal power of the TE0/TE1 modes are plotted as a function of propagation direction. 
+When the simulation ends, the overall |E|<sup>2</sup> profile is plotted and the modal power of the TE0/TE1 modes are plotted as a function of propagation direction. 
 
